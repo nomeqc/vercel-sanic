@@ -1,4 +1,4 @@
-# Vercel flask
+# Vercel sanic
 A demo Sanic application running on Vercel
 
 # Deployment
