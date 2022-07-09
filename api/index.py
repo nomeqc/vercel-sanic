@@ -9,6 +9,7 @@ template = Template(path=Path(__file__).parent.joinpath("templates"))
 
 @app.route("/")
 async def html(request):
+    print(f'template: {template}')
     vars = {'title': 'hello world', 'word': 'Tom'}
     return await template.render_template("test.html", **vars)
 
