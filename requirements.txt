@@ -1,0 +1,3 @@
+sanic==20.12.3
+requests==2.26.0
+sanic-template==1.0.0
